@@ -67,7 +67,15 @@
           <h1 class="title solutions-title">
             Ефективні рішення для вашого бізнесу
           </h1>
-          <button class="button" type="button">Замовити послугу</button>
+          <button class="button solutions-button" type="button" data-modal-open>
+            Замовити послугу
+          </button>
+        </div>
+        <!-- Модальне вікно -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close>x</button>
+          </div>
         </div>
       </section>
 
@@ -419,5 +427,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

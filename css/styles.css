@@ -160,7 +160,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   letter-spacing: 0.28px;
-  transition-property: color, opacity;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-funсtion);
 }
